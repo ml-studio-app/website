@@ -1,9 +1,9 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  title: "ML Studio"
+  subtitle: "Free Data Scientists to do great work"
+  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -25,35 +25,15 @@ showcase:
     - icon: "twitter"
       URL: "https://twitter.com/radity"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
-
     - icon: "youtube"
       URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
 
 # about
 about:
   enable: true
-  title: "Who am I?"
+  title: "About US"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
+    We are a team of veteran founders.
     </p>
     <p class="lead">
     My area of focus lies in designing web and mobile products, user research as well as
@@ -108,9 +88,9 @@ experience:
       company: "Cyberse"
       duration: "Jun 2009 - Mar 2010"
 
-# Client & Work
-client_and_work:
-  title: "Clients & Works"
+# Use cases
+use_cases:
+  title: "Use cases"
   enable: true
 
   clients:
@@ -229,7 +209,7 @@ contact:
 # newsletter
 newsletter:
   enable: true
-  title: "Newsletter subscription"
+  title: "Want to get early access and product updates?"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
