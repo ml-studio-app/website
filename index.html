@@ -21,9 +21,9 @@
             dl = l != 'dataLayer' ? '&l=' + l : '';
         j.async = true;
         j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            'https://www.googletagmanager.com/gtm.js?id=UA-151110845-1' + i + dl;
         f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', '');
+    })(window, document, 'script', 'dataLayer', 'UA-151110845-1');
 </script>
 
 
@@ -220,6 +220,12 @@
 </style>
 
 
+<link rel="stylesheet" href="http://localhost:8080/css/main.css"/>
+
+<link rel="stylesheet" href="http://localhost:8080/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="http://localhost:8080/css/custom.css"/>
+
 
     
 
@@ -231,9 +237,9 @@
 	<header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="http://example.org/">
-        <span></span>
-        <span></span>
+      <a class="navbar-brand" href="http://localhost:8080/">
+        <span>ML</span>
+        <span>Studio</span>
         
       </a>
       <button
@@ -251,7 +257,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" href="http://example.org/">HOME</a>
+            <a class="nav-link" href="http://localhost:8080/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
           </li>
           
         </ul>
@@ -267,8 +291,8 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="http://example.org/img/showcase/showcase.png"
-      data-srcset="http://example.org/img/showcase/showcase.png 1x, http://example.org/img/showcase/showcase@2x.png 2x"
+      data-src="http://localhost:8080/img/showcase/showcase.png"
+      data-srcset="http://localhost:8080/img/showcase/showcase.png 1x, http://localhost:8080/img/showcase/showcase@2x.png 2x"
       alt="Showcase keyboard and mouse image"
     />
   </div>
@@ -329,7 +353,7 @@
           ><i class="icon-facebook-line"></i
         ></a>
         
-        <a href="http://example.org/" target="_blank"
+        <a href="http://localhost:8080/" target="_blank"
           ><i class="icon-codepen-line"></i
         ></a>
         
@@ -344,7 +368,7 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="http://example.org/img/showcase/showcase-mobile.jpg"
+      data-src="http://localhost:8080/img/showcase/showcase-mobile.jpg"
       alt="Showcase keyboard and mouse image"
     />
   </div>
@@ -360,8 +384,8 @@
         <img
           class="lozad img-responsive image-left-overflow"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="http://example.org/img/who-am-i/user-picture.png"
-          data-srcset="http://example.org/img/who-am-i/user-picture.png 1x, http://example.org/img/who-am-i/user-picture@2x.png 2x"
+          data-src="http://localhost:8080/img/who-am-i/user-picture.png"
+          data-srcset="http://localhost:8080/img/who-am-i/user-picture.png 1x, http://localhost:8080/img/who-am-i/user-picture@2x.png 2x"
           alt="Profile Picture"
         />
       </div>
@@ -483,8 +507,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/asgardia.png"
-                data-srcset="http://example.org/img/clients/asgardia.png 1x, http://example.org/img/clients/asgardia@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/asgardia.png"
+                data-srcset="http://localhost:8080/img/clients/asgardia.png 1x, http://localhost:8080/img/clients/asgardia@2x.png 2x"
                 alt="Asgardia"
               />
             </a>
@@ -495,8 +519,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/earth-2.png"
-                data-srcset="http://example.org/img/clients/earth-2.png 1x, http://example.org/img/clients/earth-2@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/earth-2.png"
+                data-srcset="http://localhost:8080/img/clients/earth-2.png 1x, http://localhost:8080/img/clients/earth-2@2x.png 2x"
                 alt="Earth 2.0"
               />
             </a>
@@ -507,8 +531,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/goldline.png"
-                data-srcset="http://example.org/img/clients/goldline.png 1x, http://example.org/img/clients/goldline@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/goldline.png"
+                data-srcset="http://localhost:8080/img/clients/goldline.png 1x, http://localhost:8080/img/clients/goldline@2x.png 2x"
                 alt="Goldline"
               />
             </a>
@@ -519,8 +543,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/kanba.png"
-                data-srcset="http://example.org/img/clients/kanba.png 1x, http://example.org/img/clients/kanba@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/kanba.png"
+                data-srcset="http://localhost:8080/img/clients/kanba.png 1x, http://localhost:8080/img/clients/kanba@2x.png 2x"
                 alt="Kanba"
               />
             </a>
@@ -531,8 +555,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/zoo-tv.png"
-                data-srcset="http://example.org/img/clients/zoo-tv.png 1x, http://example.org/img/clients/zoo-tv@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/zoo-tv.png"
+                data-srcset="http://localhost:8080/img/clients/zoo-tv.png 1x, http://localhost:8080/img/clients/zoo-tv@2x.png 2x"
                 alt="Zoo"
               />
             </a>
@@ -543,8 +567,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="http://example.org/img/clients/ztos.png"
-                data-srcset="http://example.org/img/clients/ztos.png 1x, http://example.org/img/clients/ztos@2x.png 2x"
+                data-src="http://localhost:8080/img/clients/ztos.png"
+                data-srcset="http://localhost:8080/img/clients/ztos.png 1x, http://localhost:8080/img/clients/ztos@2x.png 2x"
                 alt="Ztos"
               />
             </a>
@@ -563,7 +587,7 @@
         <p class="lead">
           We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.
         </p>
-        <a href="http://example.org/" class="btn btn-primary"
+        <a href="http://localhost:8080/" class="btn btn-primary"
           >Case Study<i class="icon-arrow-right"></i
         ></a>
       </div>
@@ -571,8 +595,8 @@
         <img
           class='lozad img-responsive img-clip-left-backward'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="http://example.org/img/works/radity-finance.jpg"
-          data-srcset="http://example.org/img/works/radity-finance.jpg 1x, http://example.org/img/works/radity-finance@2x.jpg 2x"
+          data-src="http://localhost:8080/img/works/radity-finance.jpg"
+          data-srcset="http://localhost:8080/img/works/radity-finance.jpg 1x, http://localhost:8080/img/works/radity-finance@2x.jpg 2x"
           alt="Radity Finance - UI Kit"
         />
       </div>
@@ -587,8 +611,8 @@
         <img
           class='lozad img-responsive img-clip-right-backward'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="http://example.org/img/works/swissfintech.jpg"
-          data-srcset="http://example.org/img/works/swissfintech.jpg 1x, http://example.org/img/works/swissfintech@2x.jpg 2x"
+          data-src="http://localhost:8080/img/works/swissfintech.jpg"
+          data-srcset="http://localhost:8080/img/works/swissfintech.jpg 1x, http://localhost:8080/img/works/swissfintech@2x.jpg 2x"
           alt="Swiss Fintech Website"
         />
       </div>
@@ -597,7 +621,7 @@
         <p class="lead">
           The Swiss Finance &#43; Technology Association is the leading FinTech hub in Switzerland.
         </p>
-        <a href="http://example.org/" class="btn btn-primary"
+        <a href="http://localhost:8080/" class="btn btn-primary"
           >Case Study<i class="icon-arrow-right"></i
         ></a>
       </div>
@@ -613,7 +637,7 @@
         <p class="lead">
           Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard.
         </p>
-        <a href="http://example.org/" class="btn btn-primary"
+        <a href="http://localhost:8080/" class="btn btn-primary"
           >Case Study<i class="icon-arrow-right"></i
         ></a>
       </div>
@@ -621,8 +645,8 @@
         <img
           class='lozad img-responsive img-clip-left-forward'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="http://example.org/img/works/robo-advisor.jpg"
-          data-srcset="http://example.org/img/works/robo-advisor.jpg 1x, http://example.org/img/works/robo-advisor@2x.jpg 2x"
+          data-src="http://localhost:8080/img/works/robo-advisor.jpg"
+          data-srcset="http://localhost:8080/img/works/robo-advisor.jpg 1x, http://localhost:8080/img/works/robo-advisor@2x.jpg 2x"
           alt="Robo Advisor"
         />
       </div>
@@ -648,8 +672,8 @@
                 <div class="testimonial__author">
                     <img class="lozad testimonial__author-image"
                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                         data-src="http://example.org/img/testimonials/daniel-jordan.jpg"
-                         data-srcset="http://example.org/img/testimonials/daniel-jordan.jpg 1x, http://example.org/img/testimonials/daniel-jordan@2x.jpg 2x"
+                         data-src="http://localhost:8080/img/testimonials/daniel-jordan.jpg"
+                         data-srcset="http://localhost:8080/img/testimonials/daniel-jordan.jpg 1x, http://localhost:8080/img/testimonials/daniel-jordan@2x.jpg 2x"
                          alt="Daniel Jordan"/>
                     <div class="testimonial__author-info">
                         <h4>Daniel Jordan</h4>
@@ -666,8 +690,8 @@
                 <div class="testimonial__author">
                     <img class="lozad testimonial__author-image"
                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                         data-src="http://example.org/img/testimonials/jonathan-peters.jpg"
-                         data-srcset="http://example.org/img/testimonials/jonathan-peters.jpg 1x, http://example.org/img/testimonials/jonathan-peters@2x.jpg 2x"
+                         data-src="http://localhost:8080/img/testimonials/jonathan-peters.jpg"
+                         data-srcset="http://localhost:8080/img/testimonials/jonathan-peters.jpg 1x, http://localhost:8080/img/testimonials/jonathan-peters@2x.jpg 2x"
                          alt="Jonathan Peters"/>
                     <div class="testimonial__author-info">
                         <h4>Jonathan Peters</h4>
@@ -684,8 +708,8 @@
                 <div class="testimonial__author">
                     <img class="lozad testimonial__author-image"
                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                         data-src="http://example.org/img/testimonials/antonio-willis.jpg"
-                         data-srcset="http://example.org/img/testimonials/antonio-willis.jpg 1x, http://example.org/img/testimonials/antonio-willis@2x.jpg 2x"
+                         data-src="http://localhost:8080/img/testimonials/antonio-willis.jpg"
+                         data-srcset="http://localhost:8080/img/testimonials/antonio-willis.jpg 1x, http://localhost:8080/img/testimonials/antonio-willis@2x.jpg 2x"
                          alt="Antonio Willis"/>
                     <div class="testimonial__author-info">
                         <h4>Antonio Willis</h4>
@@ -791,7 +815,7 @@
   <div class="container">
     <div class="footer__left">
       <div class="footer__copy">
-        
+        © 2020 ML Studio. All rights reserved.
       </div>
     </div>
     <div class="footer__links">
@@ -800,22 +824,34 @@
           <a class="nav-link" href="/">HOME</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">CONTACT</a>
+        </li>
+        
       </ul>
     </div>
     <div class="footer__right">
       <a href="https://radity.com/"
         ><img
-          src="http://example.org/"
-          srcset="http://example.org/ 1x, http://example.org/ 2x"
-          alt=""
+          src="http://localhost:8080/img/general/design-and-code-radity.png"
+          srcset="http://localhost:8080/img/general/design-and-code-radity.png 1x, http://localhost:8080/img/general/design-and-code-radity@2x.png 2x"
+          alt="Design &amp; Code - Radity"
       /></a>
     </div>
   </div>
 </footer>
 
 
-    <script src='http://example.org/js/rad-animations.js'></script>
-<script src='http://example.org/js/library/lozad.min.js'></script>
+    <script src='http://localhost:8080/js/rad-animations.js'></script>
+<script src='http://localhost:8080/js/library/lozad.min.js'></script>
 <script>
   window.addEventListener("load", function() {
     var observer = window.lozad(".lozad", {
@@ -825,11 +861,11 @@
     observer.observe();
   });
 </script>
-<script src='http://example.org/js/library/jquery-3.3.1.slim.min.js'></script>
-<script src='http://example.org/js/library/bootstrap.min.js'></script>
-<script src='http://example.org/js/sticky-header.js'></script>
-<script src='http://example.org/js/library/smooth-scroll.polyfills.min.js'></script>
-<script src='http://example.org/js/library/fontfaceobserver.js'></script>
+<script src='http://localhost:8080/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='http://localhost:8080/js/library/bootstrap.min.js'></script>
+<script src='http://localhost:8080/js/sticky-header.js'></script>
+<script src='http://localhost:8080/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='http://localhost:8080/js/library/fontfaceobserver.js'></script>
 <script>
   (function(w) {
     
@@ -869,6 +905,6 @@
     })
 </script>
 
-</body>
+<script data-no-instant>document.write('<script src="/livereload.js?port=8080&mindelay=10&v=2"></' + 'script>')</script></body>
 
 </html>

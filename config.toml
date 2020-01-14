@@ -60,14 +60,14 @@ theme = "raditian"
 
 [params]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "UA-151110845-1" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "ML"
+    text2 = "Studio"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© 2020 ML Studio. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

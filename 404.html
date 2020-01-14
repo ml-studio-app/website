@@ -213,17 +213,17 @@
       }
     </style>
 
-    <link rel="stylesheet" href='http://example.org/css/main.css' />
-    <link rel="stylesheet" href='http://example.org/css/rad-icons.css' />
+    <link rel="stylesheet" href='http://localhost:8080/css/main.css' />
+    <link rel="stylesheet" href='http://localhost:8080/css/rad-icons.css' />
   </head>
 
   <body>
     <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="http://example.org/">
-        <span></span>
-        <span></span>
+      <a class="navbar-brand" href="http://localhost:8080/">
+        <span>ML</span>
+        <span>Studio</span>
         
       </a>
       <button
@@ -241,7 +241,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" href="http://example.org/">HOME</a>
+            <a class="nav-link" href="http://localhost:8080/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#contact"
+              >CONTACT</a
+            >
           </li>
           
         </ul>
@@ -259,7 +277,7 @@
         <p>
           Sorry, but the page you were looking for could not be found.
         </p>
-        <a href="http://example.org/" class="btn btn-primary">Back to homepage</a>
+        <a href="http://localhost:8080/" class="btn btn-primary">Back to homepage</a>
       </div>
     </section>
 
@@ -267,7 +285,7 @@
   <div class="container">
     <div class="footer__left">
       <div class="footer__copy">
-        
+        © 2020 ML Studio. All rights reserved.
       </div>
     </div>
     <div class="footer__links">
@@ -276,20 +294,32 @@
           <a class="nav-link" href="/">HOME</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:8080/">CONTACT</a>
+        </li>
+        
       </ul>
     </div>
     <div class="footer__right">
       <a href="https://radity.com/"
         ><img
-          src="http://example.org/"
-          srcset="http://example.org/ 1x, http://example.org/ 2x"
-          alt=""
+          src="http://localhost:8080/img/general/design-and-code-radity.png"
+          srcset="http://localhost:8080/img/general/design-and-code-radity.png 1x, http://localhost:8080/img/general/design-and-code-radity@2x.png 2x"
+          alt="Design &amp; Code - Radity"
       /></a>
     </div>
   </div>
 </footer>
- <script src='http://example.org/js/rad-animations.js'></script>
-<script src='http://example.org/js/library/lozad.min.js'></script>
+ <script src='http://localhost:8080/js/rad-animations.js'></script>
+<script src='http://localhost:8080/js/library/lozad.min.js'></script>
 <script>
   window.addEventListener("load", function() {
     var observer = window.lozad(".lozad", {
@@ -299,11 +329,11 @@
     observer.observe();
   });
 </script>
-<script src='http://example.org/js/library/jquery-3.3.1.slim.min.js'></script>
-<script src='http://example.org/js/library/bootstrap.min.js'></script>
-<script src='http://example.org/js/sticky-header.js'></script>
-<script src='http://example.org/js/library/smooth-scroll.polyfills.min.js'></script>
-<script src='http://example.org/js/library/fontfaceobserver.js'></script>
+<script src='http://localhost:8080/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='http://localhost:8080/js/library/bootstrap.min.js'></script>
+<script src='http://localhost:8080/js/sticky-header.js'></script>
+<script src='http://localhost:8080/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='http://localhost:8080/js/library/fontfaceobserver.js'></script>
 <script>
   (function(w) {
     
@@ -343,5 +373,5 @@
     })
 </script>
 
-  </body>
+  <script data-no-instant>document.write('<script src="/livereload.js?port=8080&mindelay=10&v=2"></' + 'script>')</script></body>
 </html>
