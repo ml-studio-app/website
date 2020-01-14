@@ -1,3 +1,7 @@
 [submodule "themes/raditian"]
 	path = themes/raditian
 	url = https://github.com/ml-studio-app/raditian-free-hugo-theme
+[submodule "public"]
+	path = public
+	url = https://github.com/ml-studio-app/ml-studio-app.github.io.git
+	branch = master
