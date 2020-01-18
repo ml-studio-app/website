@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "ML Studio"
 theme = "raditian"
@@ -32,8 +32,8 @@ theme = "raditian"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Use cases"
+  URL = "#use_cases"
   weight = 3
 
   [[menu.header]]
@@ -48,8 +48,8 @@ theme = "raditian"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Use cases"
+  URL = "#use_cases"
   weight = 3
 
   [[menu.footer]]
@@ -59,12 +59,6 @@ theme = "raditian"
 
 
 [params]
-
-  googleTagManagerID = "UA-151110845-1" # Google Analytics works with Google Tag Manager
-
-  [params.logo]
-    text1 = "ML"
-    text2 = "Studio"
 
   [params.footer]
       copyright = "© 2020 ML Studio. All rights reserved."

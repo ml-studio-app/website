@@ -3,30 +3,28 @@ showcase:
   enable: true
   title: "ML Studio"
   subtitle: "Free Data Scientists to do great work"
-  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
+#  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
 
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+  iframe:
+    URL: "https://mlstudio.substack.com/embed"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "https://www.linkedin.com/company/30891912"
 
     - icon: "github"
-      URL: "https://github.com/radity"
+      URL: "http://github.com/ml-studio-app/website/settings"
 
     - icon: "twitter"
-      URL: "https://twitter.com/radity"
+      URL: "http://twitter.com/mlstudioapp"
 
     - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+      URL: "https://www.youtube.com/channel/UCbETNEb33J3EL9APtalBsWw"
 
 # about
 about:
