@@ -5,10 +5,12 @@ showcase:
   subtitle: "Free Data Scientists to do great work"
 #  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
+    alt: "ML Studio dashboard image"
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    alt: "ML Studio dashboard image"
+    x: "img/showcase/showcase-mobile.png"
 
   iframe:
     URL: "https://mlstudio.substack.com/embed"
@@ -18,7 +20,7 @@ showcase:
       URL: "https://www.linkedin.com/company/30891912"
 
     - icon: "github"
-      URL: "http://github.com/ml-studio-app/website/settings"
+      URL: "http://github.com/ml-studio-app"
 
     - icon: "twitter"
       URL: "http://twitter.com/mlstudioapp"
