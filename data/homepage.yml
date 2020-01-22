@@ -28,6 +28,40 @@ showcase:
     - icon: "youtube"
       URL: "https://www.youtube.com/channel/UCbETNEb33J3EL9APtalBsWw"
 
+# what is mlstudio
+what_is:
+  enable: true
+  title: "What is ML Studio?"
+  content: '<p class="lead">
+    <b>ML Studio</b> is a cloud-native app build on-top of Kubernetes.
+    This means it is cloud-agnostic and can be deployed on its own or to existing clusters.
+    </p>
+    <p class="lead">
+    <b>ML Studio</b> has intuitive UI and is bundled with many open-source tools Data Scientists and Engineers already
+    use daily. No lock-in tools, we simply want to free you to do your best work without having to worry about the
+    mundane tasks.
+    </p>'
+  techs:
+    - logo:
+        x: "img/tech/docker.svg"
+      alt: "Docker"
+      url: "https://docker.com"
+
+    - logo:
+        x: "img/tech/kubernetes.svg"
+      alt: "Kubernetes"
+      url: "https://kubernetes.io"
+
+    - logo:
+        x: "img/tech/jupyter.svg"
+        alt: "Jupyter"
+        url: "https://jupyter.org"
+
+    - logo:
+        x: "img/tech/voyager.png"
+        alt: "Voyager"
+        url: "https://github.com/vega/voyager"
+
 # about
 about:
   enable: true
