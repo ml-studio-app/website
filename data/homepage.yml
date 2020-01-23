@@ -11,6 +11,10 @@ showcase:
   imageMobile:
     alt: "ML Studio dashboard image"
     x: "img/showcase/showcase-mobile.png"
+  imageOver:
+    alt: "ML Studio running on mobile"
+    x: "img/showcase/mobile.png"
+    _2x: "img/showcase/mobile@2x.png"
 
   iframe:
     URL: "https://mlstudio.substack.com/embed"
@@ -58,33 +62,18 @@ what_is:
         url: "https://jupyter.org"
 
     - logo:
+        x: "img/tech/conda.png"
+        alt: "Anaconda"
+        url: "https://anaconda.org"
+
+    - logo:
         x: "img/tech/voyager.png"
         alt: "Voyager"
         url: "https://github.com/vega/voyager"
 
-# about
-about:
-  enable: true
-  title: "About US"
-  content: '<p class="lead">
-    We are a team of veteran founders.
-    </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
-  image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
-
 # education
 education:
-  enable: true
+  enable: false
   title: "Education"
   items:
     - university: "University of Waterloo"
@@ -97,7 +86,7 @@ education:
 
 # experience
 experience:
-  enable: true
+  enable: false
   title: "Experience"
   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
@@ -122,74 +111,48 @@ experience:
       company: "Cyberse"
       duration: "Jun 2009 - Mar 2010"
 
-# Use cases
-use_cases:
-  title: "Use cases"
+# Features
+features:
+  title: "Features"
   enable: true
 
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+    - title: "Dashboard"
+      description: "Stay on top of your hardware utilization and review your models deployments."
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/features/dashboard.png"
+        _2x: "img/features/dashboard@2x.png"
       is_even: true
 
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+    - title: "Responsive UI"
+      description: "Mobile and tablet friendly designs. Monitor and manage your deployments on the go."
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/features/mobile.png"
+        _2x: "img/features/mobile@2x.png"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+    - title: "Cloud agnostic"
+      description: "ML Studio is a Kubernetes application. You can run it in a new cluster or deployed it to
+      your existing cluster."
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/features/flow-deploy.gif"
+        _2x: "img/features/flow-deploy.gif"
+      is_even: true
+
+    - title: "No lock-in"
+      description: "Your work, your data, you are in full control. We will not have to learn anything new and
+      if you decide to leave, you are free to go at anytime."
+      image:
+        x: "img/features/lock.png"
+        _2x: "img/features/lock@2x.png"
+      is_even: false
+
+    - title: "More features to come"
+      description: "Features like user calibration tools, different deployment testing strategies,
+      drift detection alerts, and 1-click app installs (apps like AirFlow, Meltano, etc...)."
+      image:
+        x: "img/features/add-deployment.png"
+        _2x: "img/features/add-deployment@2x.png"
       is_even: true
 
 # testimonial
@@ -218,27 +181,25 @@ testimonial:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
 
-# contact
-contact:
-  enable: false
-  title: "Contact"
-  form:
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-  phone:
-    title: "Phone Number"
-    number: "+41 (44) 505 10 99"
-  email:
-    title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
-  address:
-    title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+# about
+about:
+  enable: true
+  title: "About US"
+  content: '<p class="lead">
+    We are a team of veteran founders, Engineers and Data Scientists.
+    </p>
+    <p class="lead">
+    Our goal is for Data Scientists and Engineers to spend all their time on hard and creative tasks.
+    Thinking about problems, collaborating with team members, testing ideas and implementing solutions.
+    ML Studio should take care of the rest.
+    </p>'
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Message us"
+    URL: "mailto:feedback@mlstudioapp.com"
+  image:
+    x: "img/about/us.jpg"
+    _2x: "img/about/us@2x.jpg"
 
 # newsletter
 newsletter:

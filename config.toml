@@ -27,34 +27,34 @@ theme = "raditian"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "What is ML Studio"
+  URL = "#what_is"
   weight = 2
 
   [[menu.header]]
-  name = "Use cases"
-  URL = "#use_cases"
+  name = "Features"
+  URL = "#features"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
+  name = "About"
+  URL = "#about"
   weight = 4
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "What is ML Studio"
+  URL = "#what_is"
   weight = 2
 
   [[menu.footer]]
-  name = "Use cases"
-  URL = "#use_cases"
+  name = "Features"
+  URL = "#features"
   weight = 3
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
+  name = "About"
+  URL = "#about"
   weight = 4
 
 
@@ -62,7 +62,3 @@ theme = "raditian"
 
   [params.footer]
       copyright = "© 2020 ML Studio. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
