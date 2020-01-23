@@ -32,7 +32,7 @@ showcase:
     - icon: "youtube"
       URL: "https://www.youtube.com/channel/UCbETNEb33J3EL9APtalBsWw"
 
-# what is mlstudio
+# What is ML Studio?
 what_is:
   enable: true
   title: "What is ML Studio?"
@@ -70,6 +70,27 @@ what_is:
         x: "img/tech/voyager.png"
         alt: "Voyager"
         url: "https://github.com/vega/voyager"
+
+# How it works?
+how_it_works:
+  enable: true
+  title: "How it works?"
+  content: '<p class="lead">
+    If you are already using Git then you are going to fit right in because every change is tracked in Git automatically.
+    Individual deployment configuration are tracked inside your Git repo under <code>.mlstudio/app.db</code>,
+    it is SQLite database. And artifacts are stored in <code>/home/mlstudio/models</code> directory so together with
+    the related deployment configuration you can reproduce the same results and review the code that lead to them.
+    </p>
+    <p class="lead">
+    All that is open because we do not want to lock you in, we believe that after you try ML Studio you will be
+    hooked. And if you ever feel want to leave you know that all your work and deployments configuration are yours
+    and that you will be taking them with you.
+    </p>'
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Message us"
+    URL: "mailto:feedback@mlstudioapp.com"
 
 # education
 education:
