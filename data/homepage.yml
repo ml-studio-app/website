@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "ML Studio"
-  subtitle: "Free Data Scientists to do great work"
+  subtitle: "Free Data Scientists to focus on hard and creative ML tasks"
 #  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
     alt: "ML Studio dashboard image"
@@ -189,7 +189,7 @@ about:
     We are a team of veteran founders, Engineers and Data Scientists.
     </p>
     <p class="lead">
-    Our goal is for Data Scientists and Engineers to spend all their time on hard and creative tasks.
+    Our goal is for Data Scientists and Engineers to spend all their time on hard and creative ML tasks.
     Thinking about problems, collaborating with team members, testing ideas and implementing solutions.
     ML Studio should take care of the rest.
     </p>'
