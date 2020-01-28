@@ -153,7 +153,7 @@ features:
       is_even: false
 
     - title: "Cloud agnostic"
-      description: "ML Studio is a Kubernetes application. You can run it in a new cluster or deployed it to
+      description: "ML Studio is a Kubernetes application. You can run it in a new cluster or deploy it to
       your existing cluster."
       image:
         x: "img/features/flow-deploy.gif"
