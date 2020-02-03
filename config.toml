@@ -53,9 +53,14 @@ theme = "raditian"
   weight = 3
 
   [[menu.footer]]
+  name = "Pricing"
+  URL = "#pricing"
+  weight = 4
+
+  [[menu.footer]]
   name = "About"
   URL = "#about"
-  weight = 4
+  weight = 5
 
 
 [params]

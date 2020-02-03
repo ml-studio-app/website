@@ -202,6 +202,19 @@ testimonial:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
 
+# Pricing
+pricing:
+  enable: true
+  title: "Pricing"
+  content: '<p class="lead">
+    ML Studio is free during Early Access Program (EAP). EAP users have full access to all the product features.
+    </p>'
+
+  image:
+    x: "img/pricing/pricing.png"
+    _2x: "img/pricing/pricing@2x.png"
+    alt: "ML Studio preliminary pricing"
+
 # about
 about:
   enable: true
