@@ -208,6 +208,16 @@ pricing:
   title: "Pricing"
   content: '<p class="lead">
     ML Studio is free during Early Access Program (EAP). EAP users have full access to all the product features.
+    </p>
+
+    <p class="lead">
+    <b>$150 monthly per installation</b>. A good Laptop for Machine Learning costs about $2,000 so we charge under that yearly per
+    installation not per user and we offer features like NoOps deployments and eventually
+    testing (A/B, canary, ...) on top of that.
+    </p>
+
+    <p class="lead">
+    Prices might be adjusted before public release.
     </p>'
 
   image:
