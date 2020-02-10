@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "ML Studio"
-  subtitle: "Free Data Scientists to focus on hard and creative ML tasks"
+  subtitle: "Freeing Data Scientists to focus on hard and creative ML tasks"
 #  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
     alt: "ML Studio dashboard image"
