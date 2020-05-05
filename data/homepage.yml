@@ -2,7 +2,8 @@
 showcase:
   enable: true
   title: "ML Studio"
-  subtitle: "Freeing Data Scientists to focus on hard and creative ML tasks"
+  subtitle: "Build, deploy and manage your ML models using one service"
+#  subtitle: "Freeing Data Scientists to focus on hard and creative ML tasks"
 #  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
     alt: "ML Studio dashboard image"
@@ -37,13 +38,25 @@ what_is:
   enable: true
   title: "What is ML Studio?"
   content: '<p class="lead">
-    <b>ML Studio</b> is a cloud-native app build on-top of Kubernetes.
-    This means it is cloud-agnostic and can be deployed on its own or to existing clusters.
+    We want to make it possible for Data Scientists and Engineers to spend their time on hard and creative ML tasks by
+    easily leveraging the cloud (on-prem or public).
     </p>
+
     <p class="lead">
-    <b>ML Studio</b> has intuitive UI and is bundled with many open-source tools Data Scientists and Engineers already
-    use daily. No lock-in tools, we simply want to free you to do your best work without having to worry about the
-    mundane tasks.
+    <b>ML Studio</b> is built around a few open-source tools your already use and other tools we build ourselves to make
+    your life easier:
+    <ul>
+      <li><b>GIT</b>: track your work and deployments configuration</li>
+      <li><b>Docker</b>: build your deployment images and deploy your work inside your k8s cluster</li>
+      <li><b>Voyager</b>: a simple but handy lightweight data visualization tool</li>
+      <li><b>Conda</b>: manage your Python environments</li>
+      <li><b>Jupyter</b>: our online IDE of choice</li>
+      <li><b>Boiler</b>: a tool we built to help you manage all your deployments</li>
+    </ul>
+    </p>
+
+    <p class="lead">
+    None of the tools we built are designed to lock you in.
     </p>'
   techs:
     - logo:
@@ -77,9 +90,9 @@ how_it_works:
   title: "How it works?"
   content: '<p class="lead">
     If you are already using Git then you are going to fit right in because every change is tracked in Git automatically.
-    Individual deployment configuration are tracked inside your Git repo under <code>.mlstudio/app.db</code>,
+    Individual deployment configuration is tracked inside your Git repo under <code>.mlstudio/app.db</code>,
     it is SQLite database. And artifacts are stored in <code>/home/mlstudio/models</code> directory so together with
-    the related deployment configuration you can reproduce the same results and review the code that lead to them.
+    the related deployment configuration you can reproduce the same results and review the code that leads to them.
     </p>
     <p class="lead">
     All that is open because we do not want to lock you in, we believe that after you try ML Studio you will be
@@ -230,12 +243,16 @@ about:
   enable: true
   title: "About US"
   content: '<p class="lead">
-    We are a team of veteran founders, Engineers and Data Scientists.
-    </p>
+    We are building ML Studio for ourselves. We got sick switching between local and cloud environments
+    and depending on other teams to get my work into production. And testing different solutions in production was a nightmare.
+
     <p class="lead">
-    Our goal is for Data Scientists and Engineers to spend all their time on hard and creative ML tasks.
-    Thinking about problems, collaborating with team members, testing ideas and implementing solutions.
-    ML Studio should take care of the rest.
+    There seem to be a class of users like us, and we want to help you with these reoccurring problems that we can
+    add solutions to. Data management, deployments, and testing, for example, are huge pain points.
+    </p>
+
+    <p class="lead">
+    Calibration and other productivity features are some of the thing we will to focus on in the future.
     </p>'
   button:
     icon: "icon-mail-fill"
