@@ -2,7 +2,7 @@
 showcase:
   enable: true
   title: "ML Studio"
-  subtitle: "Build, deploy and manage your ML models using one service"
+  subtitle: "Build, deploy, and manage your ML models using one platform"
 #  subtitle: "Freeing Data Scientists to focus on hard and creative ML tasks"
 #  description: "Manage your ML projects from inception to production. ML Studio is a cloud-native app, it comes with tools like Jupyter, conda, and deployment tools to test, track and deploy your final ML models."
   image:
@@ -38,8 +38,7 @@ what_is:
   enable: true
   title: "What is ML Studio?"
   content: '<p class="lead">
-    We want to make it possible for Data Scientists and Engineers to spend their time on hard and creative ML tasks by
-    easily leveraging the cloud (on-prem or public).
+    We make it possible for Data Scientists and Engineers to spend their time on hard and creative ML tasks by using a common platform to build, deploy and manage ML models. And easily leveraging the cloud (on-prem or public).
     </p>
 
     <p class="lead">
@@ -243,16 +242,15 @@ about:
   enable: true
   title: "About US"
   content: '<p class="lead">
-    We are building ML Studio for ourselves. We got sick switching between local and cloud environments
-    and depending on other teams to get my work into production. And testing different solutions in production was a nightmare.
-
-    <p class="lead">
-    There seem to be a class of users like us, and we want to help you with these reoccurring problems that we can
-    add solutions to. Data management, deployments, and testing, for example, are huge pain points.
+    If you are a Data Scientist, you probably spend more time on engineering, DevOps, switching between local and cloud environments, and depending on other teams to get your work into production than you should or want to. 
     </p>
 
     <p class="lead">
-    Calibration and other productivity features are some of the thing we will to focus on in the future.
+    ML is hard and we want to help you focus on solving interesting problems instead of worrying about the tools you use and other inconveniences.
+    </p>
+
+    <p class="lead">
+    We build ML Studio for you to shorten your workflow and make it more enjoyable.
     </p>'
   button:
     icon: "icon-mail-fill"
