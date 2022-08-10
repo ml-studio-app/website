@@ -255,7 +255,7 @@ about:
   button:
     icon: "icon-mail-fill"
     btnText: "Message us"
-    URL: "mailto:feedback@mlstudioapp.com"
+    URL: "mailto:feedback@getmlstudio.com"
   image:
     x: "img/about/us.jpg"
     _2x: "img/about/us@2x.jpg"
